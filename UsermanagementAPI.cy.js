@@ -24,7 +24,7 @@ context("User Management API Automation",()=>{
 
     it("UPDATE- User list", ()=>{
         var user1 ={
-            "name": "Bowthika Ravi",
+            "name": "Sowbarnya",
             "job": "QA Engineer"
         }
         cy.request('PUT','https://reqres.in/api/users/2',user1).then((response)=>{
