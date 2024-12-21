@@ -18,9 +18,9 @@ describe('Locators', ()=> {
      //Contact US
      cy.get("[class='elementor-button-text']").click()
     
-    cy.get("[name='name']").eq(0).type("Preethi123");
-        cy.get("[name='email']").eq(0).type("preethiqa@gmail.com");
-        cy.get("[name='phone']").eq(0).type("9629466261");
+    cy.get("[name='name']").eq(0).type("lashu");
+        cy.get("[name='email']").eq(0).type("lashu@gmail.com");
+        cy.get("[name='phone']").eq(0).type("9876543210");
         cy.get("[name='companyname']").eq(0).type("ABC company");
         cy.get("[name='role']").eq(0).type("QA");
         cy.get("[name='requirements']").eq(0).type("XYZ");
